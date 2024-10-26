@@ -27,7 +27,7 @@ public class StringPrograms {
 			Q1_M4(str);
 //			M5.
 			Q1_M5_reverseString(str);
-//		2. Remove duplicate chars
+//		Q2. Remove duplicate chars
 //			M1. 
 			Q2_M1(str);
 //			M2.
@@ -39,39 +39,40 @@ public class StringPrograms {
 //	        Write a java program to remove repeated charaters from the given string 
 	        Q2_M5_removeRepeatedCharacters(str);
 	        
-//		3. Reverse Each Word in String
+//		Q3. Reverse Each Word in String
 			Q3_M1();
-//		4. Find/count Char Occurrence of each character in given String
+//		Q4. Find/count Char Occurrence of each character in given String
 			Q4_M1(str);
 			Q4_M2(str);// java8 streams
 //			Count The Number of Occurrences of a Specific Character in a String
 			Q4_M3(str,'j');
 			Q4_M4(str,'j');
-//		5. Find Non Repeated Char
+//		Q5. Find Non Repeated Char
 //	        Write a java program to print non repeated charaters from the given string
 			Q5_M1(str);
 			Q5_M2(str);
 	        Q5_M3_findNonRepeatedCharacters(str);
 	        //First non-repeating character : 
 	        Q5_M4_findFirstNonRepeatingChar(str);
-//		6. Replace Char with Occurrence Input: OPENTEXT and Output: OPEN1EX2
+//		Q6. Replace Char with Occurrence Input: OPENTEXT and Output: OPEN1EX2
 			String input = "OPENTEXT";
 			Q6_M1(input);
 			Q6_M2(input);
-//		7. Find Longest Substring Input:abbac Output:bac --> Length is 3 ; Input:abcabcbb Output:abc --> Length is 3
+//		Q7. Find Longest Substring Input:abbac Output:bac --> Length is 3 ; Input:abcabcbb Output:abc --> Length is 3
 			String s = "abbac";
 			Q7_M1(s);
-//		8. Sort String Characters
+//		Q8. Sort String Characters
 			//M1: Without using sort method
 			String sortString = "java";
 			Q8_M1(sortString);
 			//M2: Using sort method
 			Q8_M2(sortString);
-//		9. Remove Whitespaces in String Input: ja va st a r Outside: javastar
+//		Q9. Remove Whitespaces in String 
+// 			Input: ja va st a r Outside: javastar
 			String spaceStr = " ja va st a r ";
 			Q9_M1(spaceStr);
 			
-//		10. Remove Special Characters
+//		Q10. Remove Special Characters
 			String splStr = "Ja**v#a$";
 //			M1:
 			Q10_M1(splStr);
@@ -80,12 +81,12 @@ public class StringPrograms {
 			Q10_M2(splStr);
 	        String input1 = "java";
 	        System.out.println("Original string: " + input1);
-//	      11.Given a list of integers, find out all the numbers starting with 1 using Stream functions? 
-	      //Input - {2, 11, 34, 45, 19, 1, 67, 87, 23, 105}, Output - 11, 19, 1, 105
+//	    Q11.Given a list of integers, find out all the numbers starting with 1 using Stream functions? 
+//			Input - {2, 11, 34, 45, 19, 1, 67, 87, 23, 105}, Output - 11, 19, 1, 105
               Q11_M1_NumberStartsWith();
-//          12.Java Program to Remove All Vowels from a String( https://www.youtube.com/watch?v=eSYJZBX2XEo )
+//      Q12.Java Program to Remove All Vowels from a String( https://www.youtube.com/watch?v=eSYJZBX2XEo )
               Q12_M1(spaceStr);
-//          13.Java Program to Count Digits, Letters, Whitespace, and Special Characters in a String (https://www.youtube.com/watch?v=iOn5TCKmE8o)
+//      Q13.Java Program to Count Digits, Letters, Whitespace, and Special Characters in a String (https://www.youtube.com/watch?v=iOn5TCKmE8o)
               String strCnt = "!@#$$ Test 232 Auto mation )(^ Java";
               Q13_M1(strCnt);
               Q13_M2(strCnt);
